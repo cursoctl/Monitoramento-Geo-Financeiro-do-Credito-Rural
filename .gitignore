@@ -1,0 +1,65 @@
+# ============================
+# AMBIENTES VIRTUAIS E PYTHON
+# ============================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# ============================
+# VARIÁVEIS DE AMBIENTE (SENHAS!)
+# ============================
+.env
+.env.local
+.pgpass
+
+# ============================
+# DADOS (se forem grandes ou sensíveis)
+# ============================
+data/raw/*.csv
+data/raw/*.shp
+data/raw/*.gpkg
+data/processed/*.csv
+data/processed/*.shp
+data/processed/*.gpkg
+*.zip
+*.rar
+*.7z
+
+# ============================
+# JUPYTER NOTEBOOKS (checkpoints)
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# ============================
+# ARQUIVOS DO SISTEMA E IDE
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# ============================
+# ARQUIVOS TEMPORÁRIOS DO POSTGRES
+# ============================
+*.log
+*.pid
+postgresql-*.conf
+
+# ============================
+# ARQUIVOS DO POWER BI
+# ============================
+*.pbix
+*.pbit
+*.pbixproj.venv/
